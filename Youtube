@@ -1,0 +1,15 @@
+public class YT {
+    public static void main(String[] args) {
+        Usuario usu1 = new Usuario("Monserrat Guadalupe");
+        Video vid1= new Video (6000,"Como tener novia","https://youtu.be/2iXfRr6-vks?si=AH8sR4ttRQ2hvhyO");
+        usu1.SubirVideo(vid1);
+        usu1.MostrarInfoUsuario();
+        System.out.println("---");
+        
+        Usuario usu2 = new Usuario ("Hildaaa");
+        Comentario commt1 = new Comentario("NO SIRVE", usu2);
+        
+        System.out.println("El usuario: " + usu2.getNombre() + "   Hizo este comentario: " + commt1.getContenido());
+               
+    }
+}
