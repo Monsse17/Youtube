@@ -1,0 +1,8 @@
+public class Youtube {
+    public static void main(String[] args) {
+        Usuario usu1= new Usuario0802 ("MonserratGuadalupe");
+        Videos vid1= new Video0802 (6000, "analizando la rosa de Guadalupe", "https://youtu.be/2iXfRr6-vks?si=AH8sR4ttRQ2hvhyO");
+        usu1.SubirVideo(vid1);
+        usu1.MostrarInfoUsuario();
+    }
+}
